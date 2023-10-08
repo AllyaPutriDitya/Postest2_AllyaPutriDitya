@@ -1,5 +1,3 @@
-Garden Shop Allya Putri Ditya
-
 from prettytable import PrettyTable
 
 # Data Admin

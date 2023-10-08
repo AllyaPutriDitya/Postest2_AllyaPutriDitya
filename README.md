@@ -1,6 +1,7 @@
 Flowchart
 
-![GardenShop](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/896df910-f4b8-44df-bec7-8d1bb38bf390)
+
+![GardenShop](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/e36e3d87-e1c2-4a96-836f-32f41d723570)
 
 
 

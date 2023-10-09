@@ -1,6 +1,7 @@
 Flowchart
 
-![GardenShop drawio](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/ca8bf889-684b-4f7a-b4e5-75d8310f5f43)
+![GardenShop drawio](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/034f745a-e6a8-4fd1-a29c-c6fb85fefc8d)
+
 
 
 -Buat sebuah program yang didalamnya:

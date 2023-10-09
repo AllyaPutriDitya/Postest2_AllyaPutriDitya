@@ -1,11 +1,6 @@
 Flowchart
 
-
-![GardenShop](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/e36e3d87-e1c2-4a96-836f-32f41d723570)
-
-
-
-
+![GardenShop drawio](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/ca8bf889-684b-4f7a-b4e5-75d8310f5f43)
 
 
 -Buat sebuah program yang didalamnya:
@@ -23,82 +18,77 @@ Tema yang dipilih = Garden Shop
 
 ![Screenshot (43)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/965a7d7a-9f5b-4f45-906b-d69be434f778)
 
-3. jika benar, program akan menyediakan opsi yang hanya ada di login sebagai admin
+3. jika benar, program akan menampilkan menu admin
 
-![Screenshot (44)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/c55b15d7-942a-4a22-b0e3-1d4bffc6f4a4)
+![Screenshot (72)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/088791a0-7750-4b9f-951f-b146bebadbbb)
+
 
 Jika salah, akan menampilkan seperti ini, dan diminta untuk login ulang.
 
 ![Screenshot (60)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/2b098c6b-97f9-434b-9a4a-e5d76176d38e)
 
-4. Jika memilih 1, akan diminta menginput nama item, harga, dan jumlah yang di beli oleh pembeli. proses penjumlahan sudah di tambah dengan pajak dan biaya layanan. dan jika sudah keluar hasil, user diminta untuk menginput apakah masih ingin tetap di halaman tersebut atau tidak. jika tidak akan diarahkan ke opsi pilihan admin
+4. Jika memilih 1, user diminta untuk memilih opsi list yang ingin ditambahkan barisnya. misal disini diinput angka 1 maka akan terlihat list table Flower
 
-![Screenshot (68)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/12dbb522-0a43-4aa3-8536-52f0bf89a5ac)
+![Screenshot (73)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/b52daa99-bc88-4683-a72c-e298484c1430)
 
-5. Jika memilih 2 akan diminta menginput angka untuk melihat tabel barang yang dijual. er diminta untuk menginput apakah masih ingin tetap di halaman tersebut atau tidak
+user diminta input data list table yang akan di tambah. setelah itu program akan menampilkan table yang berhasil ditambah. setelah itu program mengarahkan ke halaman menu admin
 
-![Screenshot (47)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/15bccb4e-0f10-4d23-92a1-59ac03c54451)
+![Screenshot (74)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/b0175e98-c877-44d3-be54-0d6330c7eba7)
 
-6. Jika tidak akan diarahkan ke opsi pilihan admin. dan jika memilih angka 3 akan di beri opsi tablw untuk di ubah datanya.
+jika memilih opsi back, program akan mengarahkan ke halaman menu admin
 
-![Screenshot (48)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/901b2765-13c5-40c1-8c07-75d75af2728d)
-
-7. setelah input table yang ingin di ubah, program meminta user untuk menginput baris nama item yang ingin dirubah dan menginput baris baru.
-
-![Screenshot (49)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/17267a7b-44de-4c08-9f06-ec0b7f805230)
-
-8. program akan mengganti baris sesuai yang diinput user. dan akan menampilkan hasilnya. User diminta untuk menginput apakah masih ingin tetap di halaman tersebut atau tidak. jika tidak akan diarahkan ke opsi pilihan admin
+![Screenshot (75)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/4ce413ff-bf52-47eb-b7a8-9ee5e3f772b1)
 
 
-![Screenshot (50)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/17813acd-9b29-4860-a42f-388bbeee0a6d)
+5. Jika memilih 2 user akan diminta menginput angka untuk melihat list table barang yang dijual. misal input angka 1 dan akan terlihat list table Flower. setelah memilih, program akan menampilkan list table yang dipilih. setelah itu program mengarahkan ke halaman menu admin
 
-9. Jika memilih angka 4 akan diberi opsi table untuk di hapus datanya.
+![Screenshot (76)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/adadfa8a-138d-48e4-8ce5-f51bf913aa6c)
 
-![Screenshot (51)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/38960b0d-6f78-42ab-81ab-3809528f503f)
+6. Jika memilih 3 user akan diminta menginput angka untuk melihat list table untuk di replace.  misal input angka 1 dan akan terlihat list table Flower.setelah itu user input nama baris yang ingin diganti dan masukkan data baru.
 
-10. Jika sudah memilih table. user diminta untuk menginput baris yang ingin di hapus
+![Screenshot (77)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/b0f5cc75-fb59-4128-b64f-4f2576a7530b)
 
+setelah itu program akan menampilkan data yang sudah diganti. dan mengarahkan user ke menu admin
 
+![Screenshot (78)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/c1e05d82-6df6-4c02-a23c-bd48b8108603)
 
-![Screenshot (52)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/046346af-7991-48fa-9dfd-6551de5b3269)
+jika memilih opsi back, program akan mengarahkan ke halaman menu admin
 
+![Screenshot (79)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/b471c760-91c6-4fed-8238-c43e39d90fba)
 
+7. Jika memilih 4, user diminta menginput angka untuk melihat list table yang ingin di hapus barisnya. misal disini input angka 3 dan akan menampilkan table list Seeds setelah itu input baris yang ingin di hapus
 
-11. Program akan menghapus barisan yang sudah di pilih sebelumnya. dan akan menampilkan hasil yang sudah dihapus
+![Screenshot (80)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/b17a3dbe-19e3-4198-8292-3c030d513b30)
 
+setelah itu program akan menampilkan table yang sudah dihapus sesuai yang user input tadi. setelah itu program mengarahkan ke menu admin
 
-![Screenshot (63)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/7904a803-612a-42c0-ae1c-ec606ce24d11)
+![Screenshot (81)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/8964aec7-ee89-4390-b3ff-972381b95eb1)
 
+jika memilih opsi back, program akan mengarahkan ke halaman menu admin
 
+![Screenshot (82)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/9e77fbd8-2c03-4225-a938-802db91ee6dc)
 
-12. jika memilih angka 5 program akan berhenti
+8. Jika memilih 5, program akan berhenti
 
-![Screenshot (55)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/7d7c3345-4cc8-4795-aa8a-1970ca0b0458)
+![Screenshot (83)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/0fbfe277-07eb-4b0a-a474-121ba13e4c05)
 
-13. Jika login sebagai Buyer akan diarahkan untuk memilih table item yang ingin dilihat
+9. Jika login sebagai Buyer, akan diarahkan ke Menu Buyer. user diminta untuk menginput angka sesuai table yang tersedia. Misal diinput no 2 dan akan menampilkan table Planting tools. dibawah tabel user diminta input Yes atau No jika tertarik untuk membeli.
 
-![Screenshot (64)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/5097ca4a-da84-470a-a5f0-7a78cb6a1edf)
+![Screenshot (84)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/47104602-6a91-4b87-a142-948ff17a8e5c)
 
-14. Program akan menampilkan table yang dipilih. dan user diminta untuk menginput jawaban ya atau tidak jika tertarik membeli.
+Jika input Yes, program akan memberi format yang digunakan untuk mengirim pesanan ke email yang tertera. dan diarahkan ke Menu Buyer
 
-![Screenshot (65)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/06709f7a-474a-4d55-88b1-5fd64af96800)
+![Screenshot (85)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/9eacb8c5-5370-4316-a87f-845bfa0b4180)
 
-15. Jika ya, akan diberi format pemesanan dan diminta untuk mengirimkan ke email yang tertera
+Jika input No, program akan diarahkan ke Menu Buyer
 
-![Screenshot (66)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/f0b7dd24-2510-43bf-8d08-e59d4e37a31b)
-
-16. Jika user menginput angka yang tidak tersedia di menu buyer, akan diminta menginput ulang angka yang tersedia
-
-![Screenshot (67)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/c8867ac0-7dd3-4556-a3fc-84b062168d0c)
-
-
-17. jika user menginput angka 4 akan diarahkan ke halaman awal,
-
-![Screenshot (58)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/8b75cb1a-2586-486d-b5e1-a9c272b16d00)
-
-18. dan jika user memilih angka 3 program akan berhenti
-
-![Screenshot (70)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/1c96aba4-9e98-4383-8217-21928873023c)
+![Screenshot (86)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/0d275769-e835-43f9-b4bd-acbff5c887c9)
 
 
+Jika Buyer menginput angka 4, program akan mengarahkan user ke halaman Login
 
+![Screenshot (87)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/4a3a2b1a-0074-4448-b9ce-7044fca6e11b)
+
+10. Di halaman login, jika user menginput angka 3, program akan berhenti
+
+![Screenshot (88)](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/bfdcc99d-bd2d-481a-8cfd-e353df2f0a7a)

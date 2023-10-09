@@ -72,59 +72,70 @@ while True :
             
         while True:
             print(f"\nWelcome, Admin\n")
-            print("1. Total Payment (+tax)\n2. Item List\n3. Change menu\n4. Delete\n5. Back")
+            print("1. Add New\n2. Item List\n3. Change menu\n4. Delete\n5. Exit")
             option = input("Choose an option : ")
 
             if option == "1":
-                print("\nTotal Payment\n")
-                item = str(input("\nItem name : "))
-                amount = int(input("Amount : "))
-                price = int(input("Item price : "))
-                tax = 0.12
-                service_program = 2.000
-                total = price*amount+(price*tax)+service_program
-                print (f"Total Payment is", {total})
-                choice = (input("Still in here? (Yes/No): "))
-                if choice == "Yes":
-                    print (f"Okay")
-                else:
-                    choice == "No"
-
-            elif option == "2":
-                print("\n==========Item List==========")
-                print("1. Flowers\n2. Planting tools\n3. Seeds\n4. Exit")
+                print("\n==========Add New==========")
+                print("1. Flowers\n2. Planting tools\n3. Seeds\n4. Back")
                 number = input("Enter the list numbers you want to see : ")
 
                 if number == "1":
                     print(Flower_table)
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print (f"Okay")
-                    else:
-                        choice == "No"
+                    Number = int(input("Enter the number : "))
+                    Item = input("Enter item name : ")
+                    price = input("Enter price (ex. Rp 30.000): ")
+                    table1.add_row([Number, Item, price])
+                    print("\nTable update : ")
+                    print (table1)
+                
+                elif number == "2":
+                    print(Tools_table)
+                    Number = int(input("Enter the number : "))
+                    Item = input("Enter item name : ")
+                    price = input("Enter price (ex. Rp 30.000): ")
+                    table2.add_row([Number, Item, price])
+                    print("\nTable update : ")
+                    print (table2)
+
+                elif number == "3":
+                    print(Tools_table)
+                    Number = int(input("Enter the number : "))
+                    Item = input("Enter item name : ")
+                    price = input("Enter price (ex. Rp 30.000): ")
+                    table3.add_row([Number, Item, price])
+                    print("\nTable update : ")
+                    print (table3)
+                
+                elif number == "4":
+                    print("Okay")
+
+                else:
+                    print("Invalid choice try again")    
+
+            elif option == "2":
+                print("\n==========Item List==========")
+                print("1. Flowers\n2. Planting tools\n3. Seeds\n4. Back")
+                number = input("Enter the list numbers you want to see : ")
+
+                if number == "1":
+                    print(Flower_table)
                                 
                 elif number == "2":
                     print(Tools_table)
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No" 
 
                 elif number == "3":
                     print(Seed_table)
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No"
 
-                else: 
-                    number == "4"
-                            
+                elif number == "4":
+                    print("Okay")
+
+                else:
+                    print("Invalid choice try again")  
+                
             elif option == "3":
                 print("==========Change Menu==========")
-                print("1. Flowers\n2. Planting tools\n3. Seeds\n4. Exit")
+                print("1. Flowers\n2. Planting tools\n3. Seeds\n4. Back")
                 number = input("Enter the list numbers you want to see : ")
 
                 if number == "1":
@@ -141,11 +152,6 @@ while True :
                     print("Result after update:")
                     print(updated_flower_table)
                     table1 = updated_flower_table  
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No"
 
                 elif number == "2":
                     print(Tools_table)
@@ -161,12 +167,6 @@ while True :
                     print("Result after update:")
                     print(updated_flower_table)
                     table1 = updated_flower_table 
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No"
-
 
                 elif number == "3":
                     print(Seed_table)
@@ -182,19 +182,20 @@ while True :
                     print("Result after update:")
                     print(updated_flower_table)
                     table1 = updated_flower_table 
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No"
+
+                elif number == "4":
+                    print("Okay")
+
+                elif number == "5":
+                    break
 
                 else:
-                    number == "4"
-                    break
+                    print("Invalid choice try again")  
+                
 
             elif option == "4":
                 print("==========Delete Menu==========")
-                print("1. Flowers\n2. Planting tools\n3. Seeds\n4. Exit")
+                print("1. Flowers\n2. Planting tools\n3. Seeds\n4. Back")
                 number = input("Enter the list numbers you want to see : ")
 
                 if number == "1":
@@ -205,11 +206,6 @@ while True :
                         row[0] = i + 1
                     print("\nTable Update:")
                     print(table1)
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No"
                 
                 elif number == "2":
                     print(Tools_table)
@@ -220,10 +216,6 @@ while True :
                     print("\nTable Update:")
                     print(table2)
                     choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No"
 
                 elif number == "3":
                     print(Seed_table)
@@ -233,20 +225,15 @@ while True :
                         row[0] = i + 1
                     print("\nTable Update:")
                     print(table3)
-                    choice = (input("Still in here? (Yes/No): "))
-                    if choice == "Yes":
-                        print ("Okay")
-                    else:
-                        choice == "No"
                 
                 elif number == "4":
-                    break
+                    print("Okay")
 
-            elif option == "5":
-                break
+                else:
+                    print("Invalid choice try again")  
 
             else:
-                print("Invalid choice. Please try again.") 
+                break
 
     if enter_option == "2":
         while True:

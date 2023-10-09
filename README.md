@@ -1,6 +1,6 @@
 Flowchart
 
-![GardenShop drawio](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/034f745a-e6a8-4fd1-a29c-c6fb85fefc8d)
+![GardenShop drawio](https://github.com/Lizzylizzz/Postest2_AllyaPutriDitya/assets/144436692/d8cd340e-5942-42b2-af29-717175b8c3d7)
 
 
 
